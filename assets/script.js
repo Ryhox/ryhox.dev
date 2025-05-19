@@ -97,8 +97,8 @@ window.addEventListener("load", () => {
           }
         });
     });
-    meowSound = new Audio('sounds/click.mp3');
-    milestoneSound = new Audio('sounds/milestone.wav');
+    meowSound = new Audio('./sounds/click.mp3');
+    milestoneSound = new Audio('./sounds/milestone.wav');
     meowSound.volume = 0.3;
     milestoneSound.volume = 0.5;
     
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
         demoUrl: "https://ryhox.dev",
         links: [
-          { url: "#", text: "Source Code", icon: "fa-code", class: "live-demo" }
+          { url: "https://github.com/Ryhox/ryhox.dev", text: "Source Code", icon: "fa-code", class: "live-demo" }
         ],
         status: "finished"
       },
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
         demoUrl: "https://cat.ryhox.dev",
         links: [
           { url: "https://cat.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "https://github.com/Ryhox/catthrow", text: "Source Code", icon: "fa-code", class: "source-code" }
         ],
         status: "finished"
       },
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
         demoUrl: "https://weather.ryhox.dev",
         links: [
           { url: "https://weather.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "https://github.com/Ryhox/weather.ryhox.dev", text: "Source Code", icon: "fa-code", class: "source-code" }
 
         ],
         status: "finished"
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
         demoUrl: "https://minesweeper.ryhox.dev",
         links: [
           { url: "https://minesweeper.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "https://github.com/Ryhox/minesweeper.ryhox.dev", text: "Source Code", icon: "fa-code", class: "source-code" }
         ],
         status: "wip"
       },
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
         demoUrl: "https://casino.ryhox.dev",
         links: [
           { url: "https://casino.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "https://github.com/Ryhox/casino.ryhox.dev", text: "Source Code", icon: "fa-code", class: "source-code" }
         ],
         status: "wip"
       }
