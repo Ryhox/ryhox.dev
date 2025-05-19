@@ -97,8 +97,8 @@ window.addEventListener("load", () => {
           }
         });
     });
-    meowSound = new Audio('./sounds/click.mp3');
-    milestoneSound = new Audio('./sounds/milestone.wav');
+    meowSound = new Audio('assets/sounds/click.mp3');
+    milestoneSound = new Audio('assets/sounds/milestone.wav');
     meowSound.volume = 0.3;
     milestoneSound.volume = 0.5;
     
