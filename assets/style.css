@@ -24,7 +24,7 @@
 
 
   body {
-    font-family: 'Chewy', cursive;
+  font-family: 'Press Start 2P', monospace;
     background-color: #161616;
     color: #e2e2e2;
     line-height: 1.6;
@@ -96,7 +96,7 @@
   }
 
   .sort-btn {
-    font-family: 'Chewy', cursive;
+  font-family: 'Press Start 2P', monospace;
     background-color: #252525;
     color: #ffffff;
     border: none;
@@ -104,7 +104,7 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 
 }
 
@@ -182,13 +182,13 @@ color: lightgreen;  }
   .card h3 {
     color: #ffffff;
     margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
   }
 
   .card p {
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     flex: 1;
   }
 
@@ -201,7 +201,7 @@ color: lightgreen;  }
   .card .links a {
     color: #e2e2e2;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     display: flex;
     align-items: center;
     gap: 0.3rem;
@@ -231,7 +231,7 @@ color: lightgreen;  }
     right: 1rem;
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     z-index: 1;
   }
 
@@ -277,6 +277,7 @@ color: lightgreen;  }
     text-align: center;
     padding: 1.5rem;
     margin-top: 2rem;
+    font-size: 0.8rem;
   }
 
   footer a {

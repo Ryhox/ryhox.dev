@@ -147,19 +147,19 @@ window.addEventListener("load", () => {
 document.addEventListener('DOMContentLoaded', function() {
     const projects = [
       {
-        title: "Ryhox.Dev Hub-Website",
+        title: "Hub",
         description: "This Website.",
-        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "assets/img/hub.jpg",
         demoUrl: "https://ryhox.dev",
         links: [
-          { url: "https://github.com/Ryhox/ryhox.dev", text: "Source Code", icon: "fa-code", class: "live-demo" }
+          { url: "#", text: "Source Code", icon: "fa-code", class: "live-demo" }
         ],
         status: "finished"
       },
             {
         title: "Nexorhub",
         description: "Made a Terminal with my babe for School.",
-        image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "assets/img/nexor.jpg",
         demoUrl: "https://web.nexorhub.com/terminal",
         links: [
           { url: "https://web.nexorhub.com/terminal", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" }
@@ -169,22 +169,22 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         title: "Flying Cat",
         description: "Throw arround a cat.",
-        image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "assets/img/cat.jpg",
         demoUrl: "https://cat.ryhox.dev",
         links: [
           { url: "https://cat.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "https://github.com/Ryhox/catthrow", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
         ],
         status: "finished"
       },
       {
         title: "Weather Dashboard",
         description: "Cute Pink Weather Dashboard.",
-        image: "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "assets/img/weather.jpg",
         demoUrl: "https://weather.ryhox.dev",
         links: [
           { url: "https://weather.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "https://github.com/Ryhox/weather.ryhox.dev", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
 
         ],
         status: "finished"
@@ -192,22 +192,22 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         title: "Minesweeper",
         description: "Minesweeper and Minesweeper 1v1s with Lobby Creation.",
-        image: "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "assets/img/minesweeper.jpg",
         demoUrl: "https://minesweeper.ryhox.dev",
         links: [
           { url: "https://minesweeper.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "https://github.com/Ryhox/minesweeper.ryhox.dev", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
         ],
         status: "wip"
       },
       {
         title: "Online Casino",
         description: "You should start Gambling, drink alcohol and take Drugs.",
-        image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+        image: "assets/img/casino.jpg",
         demoUrl: "https://casino.ryhox.dev",
         links: [
           { url: "https://casino.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "https://github.com/Ryhox/casino.ryhox.dev", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
         ],
         status: "wip"
       }
