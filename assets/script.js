@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "assets/img/hub.jpg",
         demoUrl: "https://ryhox.dev",
         links: [
-          { url: "#", text: "Source Code", icon: "fa-code", class: "live-demo" }
+          { url: "https://github.com/Ryhox/ryhox.dev", text: "Source Code", icon: "fa-code", class: "live-demo" }
         ],
         status: "finished"
       },
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function() {
         demoUrl: "https://cat.ryhox.dev",
         links: [
           { url: "https://cat.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "https://github.com/Ryhox/catthrow", text: "Source Code", icon: "fa-code", class: "source-code" }
         ],
         status: "finished"
       },
@@ -181,10 +181,10 @@ document.addEventListener('DOMContentLoaded', function() {
         title: "Weather Dashboard",
         description: "Cute Pink Weather Dashboard.",
         image: "assets/img/weather.jpg",
-        demoUrl: "https://weather.ryhox.dev",
+        demoUrl: "https://meteorology.ryhox.dev",
         links: [
-          { url: "https://weather.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "https://meteorology.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
+          { url: "https://github.com/Ryhox/weather.ryhox.dev", text: "Source Code", icon: "fa-code", class: "source-code" }
 
         ],
         status: "finished"
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
         demoUrl: "https://minesweeper.ryhox.dev",
         links: [
           { url: "https://minesweeper.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "https://github.com/Ryhox/minesweeper.ryhox.dev", text: "Source Code", icon: "fa-code", class: "source-code" }
         ],
         status: "wip"
       },
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
         demoUrl: "https://casino.ryhox.dev",
         links: [
           { url: "https://casino.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
-          { url: "#", text: "Source Code", icon: "fa-code", class: "source-code" }
+          { url: "https://github.com/Ryhox/casino.ryhox.dev", text: "Source Code", icon: "fa-code", class: "source-code" }
         ],
         status: "wip"
       }
