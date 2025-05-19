@@ -155,13 +155,13 @@ color: lightgreen;  }
   }
 
   .card.wip:hover::before {
-    background: linear-gradient(to bottom, orange, #949494);
+    background: linear-gradient(to bottom, orange, rgb(255, 198, 93));
 
   }
 
   /* Finished border color */
   .card.finished:hover::before {
-    background: linear-gradient(to bottom, lightgreen, #949494);
+    background: linear-gradient(to bottom, lightgreen, rgb(155, 236, 155));
   }
 
   .card-image {
