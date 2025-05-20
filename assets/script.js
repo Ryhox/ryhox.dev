@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
         title: "Hub",
         description: "This Website.",
         image: "assets/img/hub.jpg",
-        demoUrl: "https://ryhox.dev",
+        demoUrl: "https://github.com/Ryhox/ryhox.dev",
         links: [
           { url: "https://github.com/Ryhox/ryhox.dev", text: "Source Code", icon: "fa-code", class: "live-demo" }
         ],
