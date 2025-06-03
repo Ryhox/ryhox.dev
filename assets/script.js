@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const privacyLink = document.getElementById('privacy-link');
     privacyLink.addEventListener('click', (e) => {
       e.preventDefault();
-      alert("Privacy Policy:\n\nWe respect your privacy. This website does not collect any personal data. Any information you choose to share via contact forms or other means will be kept confidential and used only for the purpose of responding to your inquiries.");
+        window.location.href = "/privacy-policy";
     });
   });
   
