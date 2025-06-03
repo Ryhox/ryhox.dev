@@ -1,7 +1,7 @@
     :root {
       --primary: #000000;
       --secondary: #3d3d3d;
-      --accent: #000000;
+      --accent: rgb(75, 186, 255);
       --bg: #f4f6f8;
       --card-bg: #ffffff;
       --text: #333;
@@ -31,6 +31,15 @@
     header h1 {
       margin: 0;
       font-size: 2.2em;
+      color: white;
+    }
+    header h3 {
+      margin: 5px 0 20px 0;
+      font-size: 1.3em;
+      color: rgb(194, 194, 194);
+    }
+    header h1:hover {
+      text-decoration: underline;
     }
 
     header p {
@@ -53,7 +62,7 @@
       color: var(--secondary);
       margin-top: 2em;
       padding-bottom: 8px;
-      border-bottom: 2px solid var(--accent);
+      border-bottom: 2px solid black;
     }
 
     p {
