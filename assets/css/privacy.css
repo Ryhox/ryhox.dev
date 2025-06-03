@@ -1,0 +1,90 @@
+    :root {
+      --primary: #000000;
+      --secondary: #3d3d3d;
+      --accent: #000000;
+      --bg: #f4f6f8;
+      --card-bg: #ffffff;
+      --text: #333;
+      --muted: #777;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 40px 20px 30px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+
+    header p {
+      font-size: 0.95em;
+      margin-top: 10px;
+      color: #ddd;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      background: var(--card-bg);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+      animation: fadeIn 0.4s ease-in;
+    }
+
+    h2 {
+      color: var(--secondary);
+      margin-top: 2em;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--accent);
+    }
+
+    p {
+      margin: 1em 0;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      color: var(--muted);
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 25px;
+        margin: 20px;
+      }
+    }
