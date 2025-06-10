@@ -271,7 +271,7 @@ color: lightgreen;  }
 
 .disclaimer-text {
   visibility: hidden;
-  width: 320px;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
   text-align: center;
@@ -280,7 +280,6 @@ color: lightgreen;  }
   position: absolute;
   z-index: 1001;
   bottom: 125%;
-  left: 50%;
   transform: translateX(-50%);
   opacity: 0;
   transition: opacity 0.3s;
