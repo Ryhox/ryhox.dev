@@ -405,4 +405,20 @@ color: lightgreen;  }
       grid-template-columns: 1fr;
     }
   }
-
+@media (hover: none) and (pointer: coarse) {
+  .disclaimer-trigger {
+    cursor: pointer;
+  }
+  
+  .disclaimer-trigger .disclaimer-text {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .disclaimer-trigger.active .disclaimer-text {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+  }
+}
