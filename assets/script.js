@@ -193,9 +193,9 @@ document.addEventListener('DOMContentLoaded', function() {
         title: "Minesweeper",
         description: "Minesweeper and Minesweeper 1v1s with Lobby Creation.",
         image: "assets/img/minesweeper.jpg",
-        demoUrl: "https://minesweeper.ryhox.dev",
+        demoUrl: "https://minesweeper.nexorhub.com",
         links: [
-          { url: "https://minesweeper.ryhox.dev", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
+          { url: "https://minesweeper.nexorhub.com", text: "Live Demo", icon: "fa-external-link-alt", class: "live-demo" },
           { url: "https://github.com/Ryhox/minesweeper.ryhox.dev", text: "Source Code", icon: "fa-code", class: "source-code" }
         ],
         status: "wip"
