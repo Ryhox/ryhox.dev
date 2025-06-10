@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
 {
   title: "Online Casino",
-  description: "You should start Gambling, drink alcohol and take Drugs <span class='disclaimer-trigger'><span class='disclaimer-circle'>!</span><span class='disclaimer-text'>This statement is straight-up satire. Please act responsibly and follow your local laws. if you need help:<br><a href='https://www.gamblingtherapy.org/' target='_blank' class='help-link'><i class='fas fa-dice'></i> Gambling Support</a> <a href='https://www.aa.org/' target='_blank' class='help-link'><i class='fas fa-glass-whiskey'></i> Alcohol Support</a> <a href='https://www.na.org/' target='_blank' class='help-link'><i class='fas fa-pills'></i> Drug Support</a></span></span>",
+description: "You should start Gambling, drink alcohol and take Drugs <a href=\"/legal-notice.html\"><span class='disclaimer-trigger'><span class='disclaimer-circle'>!</span></span></a>",
   image: "assets/img/casino.jpg",
   demoUrl: "https://casino.ryhox.dev",
   links: [
@@ -285,55 +285,4 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = "/privacy-policy";
     });
   });
-  // Add this to your existing JavaScript
-function isMobileDevice() {
-  return (('ontouchstart' in window) ||
-     (navigator.maxTouchPoints > 0) ||
-     (navigator.msMaxTouchPoints > 0));
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-  
-  if (isMobileDevice()) {
-    const disclaimerTriggers = document.querySelectorAll('.disclaimer-trigger');
-    
-    disclaimerTriggers.forEach(trigger => {
-      let timeout;
-      
-      trigger.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        
-        const disclaimer = this.querySelector('.disclaimer-text');
-        const isVisible = disclaimer.style.visibility === 'visible';
-        
-        document.querySelectorAll('.disclaimer-text').forEach(d => {
-          if (d !== disclaimer) {
-            d.style.visibility = 'hidden';
-            d.style.opacity = '0';
-          }
-        });
-        
-        if (isVisible) {
-          disclaimer.style.visibility = 'hidden';
-          disclaimer.style.opacity = '0';
-        } else {
-          disclaimer.style.visibility = 'visible';
-          disclaimer.style.opacity = '1';
-          
-          clearTimeout(timeout);
-          timeout = setTimeout(() => {
-            document.addEventListener('click', function closeDisclaimer() {
-              disclaimer.style.visibility = 'hidden';
-              disclaimer.style.opacity = '0';
-              document.removeEventListener('click', closeDisclaimer);
-            }, { once: true });
-          }, 100);
-        }
-      });
-    });
-  }
-});
-
-
-
+ 
