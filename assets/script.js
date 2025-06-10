@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
     {
       title: "Online Casino",
-      description: "You should start Gambling, drink alcohol and take Drugs. <span class='disclaimer-trigger'>!<span class='disclaimer-text'>Disclaimer: This statement is intended as a joke and does not constitute advice. I do not encourage gambling, alcohol consumption, or drug use. Please act responsibly and follow your local laws. If you are struggling with addiction, seek professional help.</span></span>",
+      description: "You should start Gambling, drink alcohol and take Drugs. <span class='disclaimer-trigger'>!<span class='disclaimer-text'>Disclaimer: This statement is satirical. I don't encourage harmful behaviors. If you need help: <br><a href='https://www.gamblingtherapy.org/' target='_blank' class='help-link'><i class='fas fa-dice'></i> Gambling Support</a> • <a href='https://www.aa.org/' target='_blank' class='help-link'><i class='fas fa-glass-whiskey'></i> Alcohol Support</a> • <a href='https://www.na.org/' target='_blank' class='help-link'><i class='fas fa-pills'></i> Drug Support</a></span></span>",
       image: "assets/img/casino.jpg",
       demoUrl: "https://casino.ryhox.dev",
       links: [
