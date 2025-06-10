@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
             {
         title: "Nexorhub",
-        description: "! YOU WILL LEAVE MY WEBSITE | Made a Terminal with my babe for School.",
+        description: "! YOU WILL LEAVE MY WEBSITE - Made a Terminal with my babe for School.",
         image: "assets/img/nexor.jpg",
         demoUrl: "https://web.nexorhub.com/terminal",
         links: [
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         title: "Minesweeper",
-        description: "! YOU WILL LEAVE MY WEBSITE | Multiplayer and Solo Minesweeper.",
+        description: "! YOU WILL LEAVE MY WEBSITE - Multiplayer and Solo Minesweeper.",
         image: "assets/img/minesweeper.jpg",
         demoUrl: "https://minesweeper.nexorhub.com",
         links: [
