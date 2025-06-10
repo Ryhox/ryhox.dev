@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         title: "Minesweeper",
-        description: "Minesweeper and Minesweeper 1v1s with Lobby Creation.",
+        description: "! YOU WILL LEAVE MY SITE | Multiplayer and Solo Minesweeper.",
         image: "assets/img/minesweeper.jpg",
         demoUrl: "https://minesweeper.nexorhub.com",
         links: [
