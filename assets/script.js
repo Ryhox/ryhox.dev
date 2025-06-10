@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
 {
   title: "Online Casino",
-  description: "You should start Gambling, drink alcohol and take Drugs <span class='disclaimer-trigger'><span class='disclaimer-circle'>!</span><span class='disclaimer-text'>This statement is straight-up satire. Please act responsibly and follow your local laws. If you are struggling with addiction, seek professional help:<br><a href='https://www.gamblingtherapy.org/' target='_blank' class='help-link'><i class='fas fa-dice'></i> Gambling Support</a> <a href='https://www.aa.org/' target='_blank' class='help-link'><i class='fas fa-glass-whiskey'></i> Alcohol Support</a> <a href='https://www.na.org/' target='_blank' class='help-link'><i class='fas fa-pills'></i> Drug Support</a></span></span>",
+  description: "You should start Gambling, drink alcohol and take Drugs <span class='disclaimer-trigger'><span class='disclaimer-circle'>!</span><span class='disclaimer-text'>This statement is straight-up satire. Please act responsibly and follow your local laws. if you need help:<br><a href='https://www.gamblingtherapy.org/' target='_blank' class='help-link'><i class='fas fa-dice'></i> Gambling Support</a> <a href='https://www.aa.org/' target='_blank' class='help-link'><i class='fas fa-glass-whiskey'></i> Alcohol Support</a> <a href='https://www.na.org/' target='_blank' class='help-link'><i class='fas fa-pills'></i> Drug Support</a></span></span>",
   image: "assets/img/casino.jpg",
   demoUrl: "https://casino.ryhox.dev",
   links: [
