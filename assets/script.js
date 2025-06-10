@@ -285,7 +285,55 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = "/privacy-policy";
     });
   });
+  // Add this to your existing JavaScript
+function isMobileDevice() {
+  return (('ontouchstart' in window) ||
+     (navigator.maxTouchPoints > 0) ||
+     (navigator.msMaxTouchPoints > 0));
+}
+
+document.addEventListener('DOMContentLoaded', function() {
   
+  if (isMobileDevice()) {
+    const disclaimerTriggers = document.querySelectorAll('.disclaimer-trigger');
+    
+    disclaimerTriggers.forEach(trigger => {
+      let timeout;
+      
+      trigger.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        const disclaimer = this.querySelector('.disclaimer-text');
+        const isVisible = disclaimer.style.visibility === 'visible';
+        
+        document.querySelectorAll('.disclaimer-text').forEach(d => {
+          if (d !== disclaimer) {
+            d.style.visibility = 'hidden';
+            d.style.opacity = '0';
+          }
+        });
+        
+        if (isVisible) {
+          disclaimer.style.visibility = 'hidden';
+          disclaimer.style.opacity = '0';
+        } else {
+          disclaimer.style.visibility = 'visible';
+          disclaimer.style.opacity = '1';
+          
+          clearTimeout(timeout);
+          timeout = setTimeout(() => {
+            document.addEventListener('click', function closeDisclaimer() {
+              disclaimer.style.visibility = 'hidden';
+              disclaimer.style.opacity = '0';
+              document.removeEventListener('click', closeDisclaimer);
+            }, { once: true });
+          }, 100);
+        }
+      });
+    });
+  }
+});
 
 
 
